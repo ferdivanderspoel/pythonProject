@@ -1,0 +1,3 @@
+song = "The rain in Spain..."
+
+# The relationship between string.join(string.split(song)) and songs is that the former first takes every word in the variable song and splits it in a list with each word as a separate element. Next, the string.join function takes every letter in each word and separates it with a single space character but takes it out of the list. Song essentially uses a string and the string.join function uses the string in a list. Yes, they are the same for all strings. The function doesn't work for integers and float values.
